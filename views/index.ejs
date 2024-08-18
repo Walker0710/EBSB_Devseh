@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="upper" class="flex centerHZ">
+        <div id="heading">
+          <img class="logo" src="images/logo.png" /><img
+            class="wording"
+            src="images/wording.png"
+          />
+
+          <p>Registration page for independence day event</p>
+        </div>
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+
+        <dotlottie-player
+          src="https://lottie.host/665187a4-5f03-4508-abc4-13ab8632be91/YWmdZJcjrq.json"
+          class="girl"
+          background="transparent"
+          speed="0.6"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <dotlottie-player
+          src="https://lottie.host/8f683127-5588-44f3-925a-ff1eaa5fbb7e/dIdiJVMXae.json"
+          class="boy"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+        ></dotlottie-player>
+      </div>
+      <div id="lower">
+        <form action="/submit" method="POST">
+          <div class="flex name-num">
+            <div id="enter-name" class="flex column">
+              <label>Name</label>
+              <input
+                class="input-box left"
+                type="text"
+                name="NAME"
+                placeholder="Devesh Gautam"
+                required
+              />
+            </div>
+            <div id="phone-number" class="flex column">
+              <label>Phone No.</label>
+              <input
+                class="input-box right"
+                type="text"
+                name="PHONE"
+                placeholder="9876543210"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="flex email-roll">
+            <div id="enter-name" class="flex column">
+              <label>Email</label>
+              <input
+                class="input-box left"
+                type="email"
+                name="EMAIL"
+                placeholder="abc.def@gmail.com"
+                required
+              />
+            </div>
+            <div class="flex column">
+              <label>Roll no.</label>
+              <input
+                class="input-box right"
+                type="text"
+                name="ROLL"
+                placeholder="MA23BTECH1100XX"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="flex name-num">
+            <div id="enter-name" class="flex column">
+              <label>Password</label>
+              <input
+                class="input-box left"
+                type="password"
+                name="PASSWORD"
+                placeholder="Create a password"
+                required
+              />
+            </div>
+            <div class="flex column">
+              <label>Confirm Password</label>
+              <input
+                class="input-box right"
+                type="password"
+                name="CONFIRM"
+                placeholder="Confirm your password"
+                required
+              />
+            </div>
+          </div>
+          <input href="/submit" class="submit" type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

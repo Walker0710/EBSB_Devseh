@@ -1,0 +1,117 @@
+#main {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    
+    background: linear-gradient(135deg, #FF9933, white, #138808);
+    height: 100vh;
+    /* Ensures the gradient covers the full viewport height */
+    margin: 0;
+    /* background-color: aquamarine; */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    cursor: url('https://www.iiitm.ac.in/images/2018/10/01/LOGO-EBSB_small_small.jpg'), auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+#upper {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+.logo
+{
+    margin-right: 20px;
+    width: 40px;
+    height: 50px;
+}
+.wording
+{
+    opacity: 40%;
+    width: auto;
+}
+.wording:hover
+{
+    cursor: pointer;
+    opacity: 100%;
+}
+#heading {
+    padding-top: 8%;
+    padding-left: 40px;
+    width: 50%;
+}
+p {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.input-box {
+    width: 200px;
+    height: 25px;
+    /* border: 1px; */
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px 5px;
+}
+.left
+{
+    background-color: #ff993376;
+}
+.right
+{
+    background-color: #13880825;
+}
+
+#lower {
+    padding: 50px 0px;
+    margin:10px auto;
+    width: 80%;
+    box-shadow: 0px 0px 15px rgba(16, 25, 198, 0.217);
+}
+
+.name-num {
+    padding: 30px;
+    /* background-color: rgb(123, 174, 174); */
+    justify-content: space-evenly;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.email-roll {
+    padding: 30px;
+    /* background-color: rgb(123, 174, 174); */
+    justify-content: space-evenly;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.submit
+{
+    border: 3px solid orange;
+    margin: 0px 45%;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(81, 81, 223, 0);
+    border-radius: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.submit:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 50px rgb(0, 123, 25);
+}
